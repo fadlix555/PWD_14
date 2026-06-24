@@ -3,10 +3,10 @@
 Proyek ini dikembangkan untuk memenuhi tugas kelompok pada mata kuliah **Pemrograman Web** (Pertemuan 14). Aplikasi ini menerapkan manajemen data pengguna dengan standar keamanan modern dan antarmuka dinamis menggunakan JavaScript Fetch API.
 
 ## Anggota Kelompok
-1. **[Nama Lengkap Anda]** - [NIM Anda]
-2. **[Nama Anggota 2]** - [NIM Anggota 2]
-3. **[Nama Anggota 3]** - [NIM Anggota 3]
-4. **[Nama Anggota 4]** - [NIM Anggota 4]
+1. **[M. Fadly Mahesar]** - [124005003]
+2. **[M. Ilham Ropi Nawawi]** - [124005007]
+3. **[Abdullah Daffa Al Ghozi]** - [124005085]
+4. **[M. Zaenal Khoirul Zaman]** - [124005056]
 
 ## Panduan Instalasi & Konfigurasi
 
