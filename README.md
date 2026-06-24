@@ -1,6 +1,6 @@
 # Secure User Dashboard & Management System
 
-Proyek ini dikembangkan untuk memenuhi tugas kelompok pada mata kuliah **Pemrograman Web** (Pertemuan 14). Aplikasi ini menerapkan manajemen data pengguna dengan standar keamanan modern dan antarmuka dinamis menggunakan JavaScript Fetch API.
+Proyek ini buat untuk memenuhi tugas kelompok pada mata kuliah **Pemrograman Web** (Pertemuan 14). Aplikasi ini menerapkan manajemen data pengguna dengan standar keamanan modern dan antarmuka dinamis menggunakan JavaScript Fetch API.
 
 ## Anggota Kelompok
 1. **M. Fadly Mahesar** - 124005003
@@ -12,7 +12,7 @@ Proyek ini dikembangkan untuk memenuhi tugas kelompok pada mata kuliah **Pemrogr
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
 
-### 1. Persiapan Lingkungan
+### 1. Persiapan 
 * Pastikan Anda telah menginstal **XAMPP** (atau web server lokal lainnya) dan menyalakan modul **Apache** serta **MySQL** melalui XAMPP Control Panel.
 * Pastikan **Git** sudah terinstal di komputer Anda jika ingin melakukan *cloning*.
 
