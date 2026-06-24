@@ -13,7 +13,7 @@ Proyek ini dikembangkan untuk memenuhi tugas kelompok pada mata kuliah **Pemrogr
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
 
 ### 1. Persiapan Lingkungan
-* [cite_start]Pastikan Anda telah menginstal **XAMPP** (atau web server lokal lainnya) dan menyalakan modul **Apache** serta **MySQL** melalui XAMPP Control Panel[cite: 12, 16].
+* [cite_start] Pastikan Anda telah menginstal **XAMPP** (atau web server lokal lainnya) dan menyalakan modul **Apache** serta **MySQL** melalui XAMPP Control Panel[cite: 12, 16].
 * Pastikan **Git** sudah terinstal di komputer Anda jika ingin melakukan *cloning*.
 
 ### 2. Konfigurasi Database
