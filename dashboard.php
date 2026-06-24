@@ -1,9 +1,10 @@
 <?php
-session_start();
-if (!isset($_SESSION['user_id'])) {
-    header("Location: login.html");
-    exit;
-}
+    session_start();
+    if (!isset($_SESSION['user_id'])) 
+    {
+        header("Location: index.html");
+        exit;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -82,7 +83,7 @@ if (!isset($_SESSION['user_id'])) {
             btn.disabled = true;
             
             try {
-                const response = await fetch('profile_process.php', { method: 'POST', body: new FormData(e.target) });
+                const response = await fetch('api/profile_process.php', { method: 'POST', body: new FormData(e.target) });
                 const data = await response.json();
                 alertBox.className = `alert ${response.ok ? 'alert-success' : 'alert-danger'}`;
                 alertBox.textContent = data.message;
@@ -101,12 +102,12 @@ if (!isset($_SESSION['user_id'])) {
             btn.disabled = true;
 
             try {
-                const response = await fetch('delete_process.php', { method: 'POST', body: new FormData(e.target) });
+                const response = await fetch('api/delete_process.php', { method: 'POST', body: new FormData(e.target) });
                 const data = await response.json();
                 alertBox.className = `alert ${response.ok ? 'alert-success' : 'alert-danger'} small`;
                 alertBox.textContent = data.message;
                 alertBox.classList.remove('d-none');
-                if(response.ok) setTimeout(() => window.location.href = 'login.html', 1500);
+                if(response.ok) setTimeout(() => window.location.href = 'index.html', 1500);
             } catch (err) { console.error(err); }
             finally { btn.disabled = false; }
         });
